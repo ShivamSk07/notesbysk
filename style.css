@@ -1,0 +1,163 @@
+.navbar{
+    display: block;
+    text-decoration: none;
+    align-items: center;
+    border: px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 0%;
+    overflow: hidden;
+    
+
+
+}
+.navbar :hover{
+    border: 3px;
+    border-color: white;
+}
+a{
+    float: left;
+    display: block;
+    margin: 12px;
+    text-decoration: none;
+    overflow: hidden;
+    color: aliceblue;
+}
+li{
+    float: left;
+    color: white;
+    justify-content: space-evenly;
+    margin-right: 62px;
+    margin-top: 0%;
+    align-items: center;
+}
+ul{
+    float: left;
+    list-style: none;
+}
+body{
+    background-image: url("myd.gif");
+}
+a :hover{
+    color: red;
+    border: 3px;
+    border-color: white;
+ 
+    
+}
+li :hover{
+    color: red;
+   
+}
+input{
+    background-color: rgba(245, 245, 245, 0.247);
+    border-color: transparent;
+
+}
+input :hover{
+    border-color: whitesmoke;
+    color: beige;
+    background-color: white;
+}
+.jio a {
+    margin-left: 14px;
+    align-items: center;
+    top: 30%;
+
+}
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 10%;
+    color: rgba(255, 255, 255, 0.664);
+    margin-bottom: 8%;
+    animation-name: head;
+    animation-duration: 3s;
+    
+
+}
+h1 :hover{
+    color: red;
+  
+  
+}
+@keyframes head {
+    from {
+        transform: translateY(200%);
+    }
+}
+.box{
+    border: 2px solid white;
+    height: 340px;
+    margin-top: 3%;
+    width: 22%;
+    background-color:black;
+    padding-top: 2px;
+    
+    
+}
+.box1{
+    
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  transparent;
+    animation-name: movie;
+    animation-duration: 3s;
+    
+}
+.house{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  transparent;
+    animation-name: movi;
+    animation-duration: 3s;
+    padding-bottom: 50px;
+    padding-top: 25px;
+
+}
+@keyframes movi{
+    from{
+        transform: translateY(200%);
+    }
+}
+
+
+@keyframes movie{
+    from{
+        transform: translateY(200%);
+    }
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    background-color: transparent;
+    animation-name: head2;
+    animation-duration: 3s;
+    justify-content: center;
+    color: white;
+}
+@keyframes head2{
+    from{
+        transform: translateY(200%);
+    }
+}
+h2 :hover{
+    color: red;
+}
+.home :hover{
+    color: red;
+}
+body{
+        color: black;
+        display: block;
+        margin: 0px;
+        margin-top:0px ;
+        margin-right:0px ;
+        margin-bottom: 0px;
+        margin-left:0px ;
+        background-color: black;
+    }
