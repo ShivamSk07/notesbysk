@@ -168,6 +168,12 @@ body{
         display: block;
         text-align: center;
     }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
 
     .home{ 
         display: block;
