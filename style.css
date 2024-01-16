@@ -169,11 +169,9 @@ body{
         text-align: center;
     }
 
-    .search input {
-        width: 80%;
+    .home{ 
+        display: block;
     }
-
-    .box {
-        width: 100%;
+    .house {
+        display: block;
     }
-}
