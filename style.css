@@ -160,4 +160,20 @@ body{
         margin-bottom: 0px;
         margin-left:0px ;
         background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .navbar ul li {
+        display: block;
+        text-align: center;
     }
+
+    .search input {
+        width: 80%;
+    }
+
+    .box {
+        width: 100%;
+    }
+}
